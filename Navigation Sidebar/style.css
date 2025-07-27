@@ -1,0 +1,152 @@
+*
+{
+    margin:0px;
+    padding:0px;
+      font-family: "Inter", sans-serif;
+    
+}
+
+.main_box
+{
+    background-image: url("photo.jpg");
+    height:100vh;
+    background-size: cover;
+}
+
+
+.btn_one
+{
+   position:absolute;
+    font-size:30px ;
+    font-weight: 700;
+   
+    left:0px;
+    top:20px;
+  z-index:1;
+}
+.sidebar_menu
+{
+    position:fixed;
+    height:900px;
+    width:300px;
+    left:-350px;
+    background-color:rgb(255,255,255,0.1);
+    box-shadow:0px 5px 10px white;
+    transition: all 0.3s linear;
+}
+
+.sidebar_menu .logo
+{
+    position:absolute;
+    width:100%;
+    line-height: 75px;
+    box-shadow:0px 3px 5px white;
+}
+
+.sidebar_menu .logo a
+{
+    text-decoration: none;
+    position:absolute;
+    left:28px;
+    color: white;
+    font-size:x-large;
+    font-weight: 600px;
+}
+
+.sidebar_menu .btn_two
+{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+    top:28px;
+    left:270px;
+    transition: all 0.3s linear;
+}
+
+.sidebar_menu .menu 
+{
+    position:absolute;
+    width:290px;
+    top:60px;
+    color:white;
+    font-size:16px;
+    line-height:60px;
+    padding-left:5px;
+
+}
+
+.sidebar_menu .menu a{
+    color:white;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.social_media
+{
+    position:absolute;
+    bottom:330px;
+    left:80px;
+  
+ 
+   
+   
+}
+.social_media a{
+    color:white;
+    opacity:0.5;
+     
+  
+}
+
+.social_media i{
+    padding-right:5px;
+     transition:all 0.5s linear;
+}
+#check
+{
+    display:none;
+}
+.social_media i:hover 
+{
+    font-size: x-large;
+}
+.menu ul 
+{
+    width:100%;
+}
+
+.sidebar_menu .menu ul li
+{
+width:100%;
+}
+.sidebar_menu .menu ul li:hover
+{
+box-shadow: 0px 0px 2px rgba(255,255,255,0.5);
+}
+
+
+.btn_two i:hover
+{
+    font-size: x-large;
+    cursor:pointer;
+}
+
+
+.btn_one i:hover
+{
+    font-size:xx-large;
+    cursor:pointer;
+}
+.social_media a:hover
+{
+    opacity:1;
+}
+
+#check:checked ~ .sidebar_menu
+{
+left:0px;
+}
+#check:checked~ .btn_one
+{
+    opacity:0;
+}
