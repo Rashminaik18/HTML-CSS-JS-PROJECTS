@@ -5,9 +5,9 @@ This is a **Spotify-inspired Web Music Player** built using **HTML + CSS**. It f
 ## 📸 Screenshots
 
 ### Desktop View  
-<img src="./Spotify/screenshots/Screenshot1.png" width="700"/>
-<img src="./Spotify/screenshots/screenshot2.PNG" width="700"/>
-<img src="./Spotify/screenshots/screenshot3.PNG" width="700"/>
+<img src="./screenshots/Screenshot1.png" width="700"/>
+<img src="./screenshots/screenshot2.PNG" width="700"/>
+<img src="./screenshots/screenshot3.PNG" width="700"/>
 
 > *(Make sure to save your uploaded screenshots inside a `/screenshots` folder and name them like above)*
 
