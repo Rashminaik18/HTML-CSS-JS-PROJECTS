@@ -1,0 +1,59 @@
+.main{
+    margin:0px;
+    padding:0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.box{
+    height:200px;
+    width:350px;
+    display: flex;
+    margin:20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.pit{
+    height:100px;
+    width:350px;
+    position:relative;
+    top:100px;
+}
+
+.mole{
+    left:139px;
+    position:absolute;
+    height:100px;
+    width:100px;
+    top:100px;
+    z-index:-1;
+}
+.up{
+    top:0px;
+    z-index: 1;
+}
+button{
+    height:30px;
+    width:100px;
+}
+.btn{
+    display:flex;
+    justify-content: space-evenly;
+   
+   
+}
+button{
+     background-color: #3B9797;
+}
+.scoreboard{
+    height:30px;
+    width:100px;
+    background-color:  #3B9797;;
+}
+.box:hover{
+    border:2px solid black;
+}
